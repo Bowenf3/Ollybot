@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: 100%;
+    font-size: 40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.display {
+    min-height: 50vh;
+    width: auto;
+    overflow-y: scroll;   
+}
+
+.text_input {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; 
+    
+}
+
+#entry {
+    font-size: 40px;  
+}
+
+#message_container_div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Bot {
+    align-self: flex-end;
+    background-color: aqua;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    overflow-wrap: break-word;
+    border-radius: 25px;
+}
+
+#User {
+    background-color: chartreuse;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    overflow-wrap: break-word;
+    border-radius: 25px;
+}
+
+#date_div {
+    font-size: 25px;
+}
